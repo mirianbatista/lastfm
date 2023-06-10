@@ -1,0 +1,7 @@
+.env
+logs
+config
+plugins
+__pycache__
+docker-compose.yaml
+sa.json
