@@ -3,7 +3,7 @@
 Em resumo, 21 vezes por minuto é feito um request para a API do Lastfm, os dados recebidos são enviados para um tópico Pub/Sub, existe um subcriber que envia os dados do tópico para o BigQuery, e o Streamlit faz queries no BigQuery para mostrar o resultado mais recente (ou seja, a música que estou ouvindo naquele momento). Na imagem abaixo podemos observar como isso acontece:
 
 <img
-  src="https://raw.githubusercontent.com/mirianbatista/lastfm/tree/main/docs/arq_lastfm.png"
+  src="https://github.com/mirianbatista/lastfm/blob/main/docs/arq_lastfm.png"
   alt="Arquitetura Lastfm Mírian">
 
 Agora que temos uma visão geral, vamos ver detalhadamente o que acontece em cada momento.
