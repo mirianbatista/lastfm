@@ -39,7 +39,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title('O que Mírian está ouvindo agora?')
 
-sa_info = json.loads(st.secrets["gcp_service_account"]["content"])
+sa_info = json.loads(st.secrets["gcp"]["service_account"])
 credentials = service_account.Credentials.from_service_account_info(sa_info)
 project_id = st.secrets["gcp"]["project_id"]
 
