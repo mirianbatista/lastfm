@@ -1,6 +1,4 @@
-from datetime import datetime
-from google.cloud import pubsub_v1
-from google.api_core.exceptions import NotFound
+from datetime import datetime, timedelta
 import urllib.request
 import json
 import time
@@ -10,12 +8,13 @@ from airflow.providers.google.cloud.operators.pubsub import PubSubCreateTopicOpe
 from airflow.decorators import task
 from airflow.models import Variable
 
-
+now = datetime.now()
+start_date_with_minutes = now - timedelta(minutes=3)
 with DAG(
     'lastfm',
     description='Meu Lastfm',
     schedule_interval = '* * * * *',
-    start_date = datetime.now(),
+    start_date=start_date_with_minutes,
     tags=['lastfm']
 ) as dag:
     

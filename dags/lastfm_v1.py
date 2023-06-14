@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date
 from google.cloud import pubsub_v1
 from google.api_core.exceptions import NotFound
 import urllib.request
@@ -13,7 +13,7 @@ with DAG(
     'lastfm_v2',
     description='Meu Lastfm',
     schedule_interval = '* * * * * *',
-    start_date = datetime.now(),
+    default_args={"start_date": date.today().strftime("%Y-%m-%d")},
     tags=['lastfm']
 ) as dag:
     
