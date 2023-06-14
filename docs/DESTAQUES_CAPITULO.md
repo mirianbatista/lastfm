@@ -25,7 +25,7 @@ Algumas opções de deduplicação são Time window: juntar os dados por timesta
 
 ### Referências complementares
 
-[Vídeo introdutório](https://youtu.be/B5j3uNBH8X4?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA) (porém não muito) que ajuda a entender o que tem dentro do cluster kafka
-[Playlist](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA) muito boa (com desenhos) sobre kafka
-Artigo de como era a [infra real time do Uber em 2021](https://arxiv.org/pdf/2104.00087.pdf) 
-Overview da [arquitetura do Pub/Sub](https://cloud.google.com/pubsub/architecture?hl=pt-br)
+* [Vídeo introdutório](https://youtu.be/B5j3uNBH8X4?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA) (porém não muito) que ajuda a entender o que tem dentro do cluster kafka
+* [Playlist](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA) muito boa (com desenhos) sobre kafka
+* Artigo de como era a [infra real time do Uber em 2021](https://arxiv.org/pdf/2104.00087.pdf) 
+* Overview da [arquitetura do Pub/Sub](https://cloud.google.com/pubsub/architecture?hl=pt-br)
