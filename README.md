@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido para fixar os aprendizados da leitura do capítulo 6 do livro [Designing Cloud Data Platforms](https://www.manning.com/books/designing-cloud-data-platforms), Real-time data processing and analytics, que eu li com pessoas muito queridas no Clube do livro do Jusbrasil ❤️
 
-Aqui tem explicações sobre a arquitetura do projeto, aqui o que eu achei mais importante no capítulo, e aqui o site onde aparece a música que eu estou ouvindo enquanto eu estou ouvindo.
+[Aqui](https://github.com/mirianbatista/lastfm/blob/main/docs/ARQUITETURA.md) tem explicações sobre a arquitetura do projeto, [aqui](https://github.com/mirianbatista/lastfm/blob/main/docs/DESTAQUES_CAPITULO.md) o que eu achei mais importante no capítulo, e [aqui](https://musicasmirian.streamlit.app/) o site onde aparece a música que eu estou ouvindo enquanto eu estou ouvindo.
 
 ## Como rodar o projeto
 
